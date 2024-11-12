@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(imagenes/ladetonealfredito.jpg);
+    background-size: 400px;
+    margin: 0px;
+    justify-content: center;
+}
+.titulou{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(29, 31, 58);
+    color: rgb(194, 163, 127);
+    height: 100px;
+    padding-top: 20px;
+    font-size: larger;
+    font-style: italic;
+ 
+}
+nav{
+    padding-top: 1px;
+    font-size: 22px;
+    background-color: rgb(29, 31, 58);
+    width: 2000px;
+}
+.menu-hor{
+    list-style-type: none;
+    display: flex;
+}
+.menu-hor li a{
+    text-decoration: none;
+    color: rgb(194, 163, 127);
+    display: block;
+    padding: 10px 20px;
+}
+.menu-hor li{
+    text-decoration: none;
+    color: rgb(194, 163, 127);
+    display: block;
+    padding: 10px 20px;
+}
+.menu-hor li:hover{
+    background-color: rgb(45, 48, 90);
+}
+section{
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-left: 600px;
+    padding: 10px;
+    margin-bottom: 128px;
+    background-color: rgba(167, 170, 172, 0.527);
+}
+.login{
+    text-align: center;
+}
+.textazo{
+    margin-left: 15px;
+}
+aside{
+    margin-left: 25px;
+}
+.subtitulo{
+    font-size: xx-large;
+    font-style: italic;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    font-size: 22px;
+}
+.comida{
+    background-color: rgba(80, 105, 129, 0.527);    
+    width: 280px;
+    height: 240px;
+    border-radius: 25px;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+footer{
+    color: rgb(185, 183, 179);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgba(29, 31, 58, .63);
+    padding: 15px;
+    margin-top: 20px;
+}
+.iconos{
+    max-width: 2rem;
+    max-height: 2rem;
+}
+.logofoot{
+    max-width: 6rem;
+    max-height: 6rem;
+}
+.cuerpo{
+    display: flex;
+}
+img{
+    width: 260px;
+    height: 180px;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: all 0.5s ;
+}
+h3{
+    text-align: center;
+    font-size: larger;
+}
+a:hover{
+    color: rgb(64, 32, 206);
+}
+a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+img:hover{
+    transform: scale(1.05);
+}

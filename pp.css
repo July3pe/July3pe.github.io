@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(imagenes/ladetonedeu.jpg);
+    background-size: 400px;
+    margin: 0px;
+}
+.titulou{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(88, 39, 16);
+    color: rgb(194, 163, 127);
+    height: 100px;
+    padding-top: 20px;
+    font-size: larger;
+    font-style: italic;
+ 
+}
+nav{
+    padding-top: 1px;
+    font-size: 22px;
+    background-color: rgb(88, 39, 16);
+    width: 224px;
+}
+.menu-hor{
+    list-style-type: none;
+    display: flex;
+}
+.menu-hor li a{
+    text-decoration: none;
+    color: rgb(194, 163, 127);
+    display: block;
+    padding: 10px 20px;
+}
+.menu-hor li:hover{
+    background-color: rgb(122, 58, 28);
+}
+section{
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    height: 525px;
+    width: 1000px;
+    border-radius: 30px;
+    margin-left: 20px;
+    background-color: rgba(199, 159, 111, 0.712);
+
+}
+.textazo{
+    margin-left: 15px;
+}
+aside{
+    margin-left: 25px;
+}
+.subtitulo{
+    font-size: xx-large;
+    font-style: italic;
+    text-decoration: underline;
+}
+h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.comida{
+    background-color: rgba(199, 159, 111, 0.712);
+    width: 280px;
+    height: 240px;
+    border-radius: 25px;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+footer{
+    color: #ecececec;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgba(88, 39, 16, .55);
+    padding: 15px;
+    margin-top: 20px;
+}
+.iconos{
+    max-width: 2rem;
+    max-height: 2rem;
+    color: rgb(185, 183, 179);
+}
+.logofoot{
+    max-width: 6rem;
+    max-height: 6rem;
+}
+.cuerpo{
+    display: flex;
+}
+img{
+    width: 260px;
+    height: 180px;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: all 0.5s ;
+}
+h3{
+    text-align: center;
+    font-size: larger;
+}
+a:hover{
+    color: rgb(64, 32, 206);
+}
+a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+img:hover{
+    transform: scale(1.05);
+}
